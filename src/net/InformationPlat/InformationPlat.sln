@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationPlat.Id4Server", "InformationPlat.Id4Server\InformationPlat.Id4Server.csproj", "{C5DF98D9-B3CB-4E4A-A459-843D2F8B337E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationPlat.AhphOcelot", "InformationPlat.AhphOcelot\InformationPlat.AhphOcelot.csproj", "{B9ADB67D-3787-49B3-8B50-C453A5805151}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C5DF98D9-B3CB-4E4A-A459-843D2F8B337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DF98D9-B3CB-4E4A-A459-843D2F8B337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DF98D9-B3CB-4E4A-A459-843D2F8B337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9ADB67D-3787-49B3-8B50-C453A5805151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9ADB67D-3787-49B3-8B50-C453A5805151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9ADB67D-3787-49B3-8B50-C453A5805151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9ADB67D-3787-49B3-8B50-C453A5805151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

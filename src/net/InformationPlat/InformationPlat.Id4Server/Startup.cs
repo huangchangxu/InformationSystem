@@ -32,6 +32,7 @@ namespace InformationPlat.Id4Server
         {
             if (env.IsDevelopment())
             {
+                
                 app.UseDeveloperExceptionPage();
             }
 

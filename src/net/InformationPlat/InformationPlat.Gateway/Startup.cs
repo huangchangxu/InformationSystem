@@ -29,7 +29,9 @@ namespace InformationPlat.Gateway
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddOcelot().AddAhphOcelot(option =>
             {
+                option.EnableTimer = true;
                 option.DbConnectionStrings = "Server=47.104.196.141;Database=Information_system;User ID=hcx;Password=CHANGxu910527;";
+                option.RedisConnectionStrings = new List<string>() {"192.168.201.182:6379,defaultDatabase=5,poolsize=50,ssl=false,writeBuffer=10240,connectTimeout=1000,connectRetry=1;"};
             });
         }
 
